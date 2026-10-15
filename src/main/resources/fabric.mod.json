@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "examplemod",
-  "version": "${version}",
+  "version": "1.0.0",
   "name": "Tas Kilic Mod",
   "description": "Taslastirici Kilic",
   "authors": [
@@ -14,10 +14,8 @@
     "main": [
       "com.example.ExampleMod"
     ]
-  },
-  "mixins": [
-    "examplemod.mixins.json"
-  ],
+  }
+  
   "depends": {
     "fabricloader": ">=0.14.21",
     "minecraft": "~1.20.1",
