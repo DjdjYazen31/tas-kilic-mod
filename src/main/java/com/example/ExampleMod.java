@@ -2,6 +2,7 @@ package com.example;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -13,7 +14,7 @@ public class ExampleMod implements ModInitializer {
     public static final String MOD_ID = "examplemod";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-    // Taşlaştırıcı Kılıcımızı oyuna kaydediyoruz (Elmas kılıç gücünde)
+    // Kılıcı kaydetme
     public static final Item PETRIFY_SWORD = Registry.register(
         Registries.ITEM,
         new Identifier(MOD_ID, "petrify_sword"),
